@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html class="con-html">
+<head>
+	<title>feedback US</title>
+	<link rel="stylesheet" type="text/css" href="custom.css">
+</head>
+<body class="feedback-body">
+     <header>
+
+      <nav class="navbar feedback-nav" >
+
+                  <ul>
+                          <li><a href="index.html">HOME</a></li>
+                        
+                        <li ><a href="test.html">TEST</a></li>
+                        
+                        <li class="feedback"><a href="feedback.html">FEEDBACK</a></li>
+                  </ul>
+
+                </nav>
+    </header>
+
+      <div class="feedback-container">
+  <form action="action_page.php" class="feedback-form">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="email">Email Address</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your email id">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="india">India</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+      <option value="china">china</option>
+    </select>
+
+    <label for="subject">FEEDBACK</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:180px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
+
+</body>
+</html>
